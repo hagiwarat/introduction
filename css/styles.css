@@ -1,9 +1,61 @@
 @charset "utf-8";
+/* ページ全体 */
+body {
+  margin: 0;
+}
 
+.inner-content {
+  width: 853px;
+  margin: 0 auto;
+}
 
+/* ヘッダー */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  /* border: solid 1px #111; */
+  /* margin: 0 auto; */
+}
 
+.page-header__title {
+  padding: 10px 0;
+  margin: 0;
+}
 
+.page-header__title a {
+  display: block;
+  width: 120px;
+  height: 40px;
+}
 
+.page-header__title img {
+  width: 100%;
+  vertical-align: baseline;
+}
+
+nav {
+  width: 150px;
+}
+
+.page-header__list {
+  display: flex;
+  list-style: none;
+  /* justify-content: space-between; */
+  padding: 0;
+}
+
+.list-item a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #24292e;
+}
+/* ↑後で見直し */
 
 
 
