@@ -65,8 +65,22 @@ nav {
   object-fit: cover;
 }
 
+.inner-content__title {
+  text-align: center;
+}
 
-
+.inner-content h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-size: 32px;
+  color: #383e45;
+  border-bottom: solid 1px #383e45;
+  display: inline-block;
+  margin-top: 90px;
+  margin-bottom: 65px;
+}
+/* ↑後で見直し */
 
 
 
