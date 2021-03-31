@@ -55,7 +55,6 @@ nav {
   font-size: 14px;
   color: #24292e;
 }
-/* ↑後で見直し */
 
 /* メイン */
 .mainvisual img {
@@ -80,7 +79,50 @@ nav {
   margin-top: 90px;
   margin-bottom: 65px;
 }
-/* ↑後で見直し */
+
+.about {
+  display: flex;
+  width: 540px;
+  margin: 0 auto;
+}
+
+.about__Img {
+  width: 100px;
+  height: 100px;
+}
+
+.about__Img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.about-content {
+  margin-left: 30px;
+  transform: translateY(-5px);
+}
+
+.about-content h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  color: #383e45;
+}
+
+.about-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  color: #383e45;
+  width: 405px;
+  transform: translateY(-5px);
+}
+
+
+
+
 
 
 
