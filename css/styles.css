@@ -120,11 +120,36 @@ nav {
   transform: translateY(-5px);
 }
 
+.bicycle-content {
+  display: flex;
+  justify-content: space-between;
+}
 
+.bicycle-content img {
+  width: 275px;
+  height: 185px;
+}
 
+.bicycle-content h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  color: #383e45;
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
 
-
-
+.bicycle-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  color: #383e45;
+  text-align: center;
+  margin-top: 10px;
+}
 
 
 
